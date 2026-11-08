@@ -1,0 +1,6 @@
+name: Outer
+on:
+  workflow_call:
+jobs:
+  inner:
+    uses: ./.github/workflows/inner.yml
